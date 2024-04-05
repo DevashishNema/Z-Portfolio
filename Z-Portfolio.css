@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* h1{
+    position: relative;
+    left: 100px;
+} */
+
+.excel{
+    height: 100vh;
+}
+nav h1{
+    color: rgb(159, 38, 138);
+  text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+  
+   list-style: none;
+}
+nav ul li{
+    padding: 10px;
+    margin: 10px;
+}
+nav ul li a {
+    color: rgb(0, 59, 83);
+    text-decoration: none;
+}
+.hero::before{
+    background:url(/img1.jpg) no-repeat center center/cover ;
+    border: 1px;
+    content: "";
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+.main{
+    position: absolute;
+     top: 250px;
+    left: 700px;
+}
+.main h1{
+    color: rgb(29, 104, 134);
+    
+}
+
+.main h3{
+    color: rgb(17, 43, 43);
+    
+}
+.main a{
+    padding: 20px;
+    background-color: rgb(62, 163, 203);
+    border: 1px solid skyblue;
+    color: white;
+    text-decoration: none;
+
+}  
+about{
+
+    
+}  
